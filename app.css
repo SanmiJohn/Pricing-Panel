@@ -1,0 +1,85 @@
+html {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-color: rgb(40, 154, 199);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#square {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    color: rgb(95, 95, 223);
+    font-weight: bold;
+}
+
+h1 {
+    color: gray;
+}
+
+#class:nth-of-type(3) {
+    color: rgb(32, 169, 223);
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+.tap {
+    border-right: 0.01rem solid rgb(199, 192, 192);
+    padding: 40px;
+}
+
+.tap:nth-child(3) {
+    border-right: none;
+}
+
+#class {
+    border-top: 0.01rem solid rgb(199, 192, 192);
+    padding-top: 1rem;
+}
+
+img {
+    width: 150px;
+    height: 100px;
+}
+
+button {
+    padding-right: 1.8rem;
+    padding-left: 1.8rem;
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+    background-color: white;
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: skyblue;
+    color: rgb(67, 67, 236);
+}
+
+.one {
+    background-color: rgb(25, 164, 219);
+    color: white;
+}
+
+@media (max-width: 1200px) {
+    #square {
+        display: flex;
+        flex-direction: column;
+    }
+
+    body {
+        padding-top: 30rem;
+        padding-bottom: 30rem;
+    }
+
+    .tap {
+        border-bottom: 0.01rem solid rgb(199, 192, 192);
+    }
+}
