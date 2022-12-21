@@ -68,6 +68,16 @@ button {
     color: white;
 }
 
+.one:hover {
+    background-color: white;
+    color: rgb(25, 164, 219);
+}
+
+button:hover {
+    background-color: rgb(25, 164, 219);
+    color: white;
+}
+
 @media (max-width: 1200px) {
     #square {
         display: flex;
